@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    border: 6px black double;
+    height: 100px;
+    clear: both;
+    background-color: #99292977;
+}
+
+section {
+    border: 3px black solid;
+    height: 300px;
+    width: 32%;
+    gap: 3px;
+    padding: 0px;
+    margin: 5px;
+    background-color: rgba(255, 0, 0, .4);
+    float: left;
+}
+
+@media screen and (max-width: 800px) {
+    header, footer {
+        border: 13px brown double;
+        background-color: hsl(43, 74%, 49%, .4);
+    }
+
+    Section {
+        width: 30.5%;
+        background-color: rgba(255, 0, 0, .6);
+    }
+}
+@media screen and (max-width: 550px) {
+    header, footer {
+        border: 5px brown dotted;
+        background-color: goldenrod;
+    }
+    Section {
+        width: 31%;
+        background-color: rgba(255, 0, 0, .7);
+    }
+}
